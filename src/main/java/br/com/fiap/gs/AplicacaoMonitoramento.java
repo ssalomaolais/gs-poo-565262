@@ -1,0 +1,11 @@
+package br.com.fiap.gs;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class AplicacaoMonitoramento {
+    public static void main(String[] args) {
+        SpringApplication.run(AplicacaoMonitoramento.class, args);
+    }
+}
